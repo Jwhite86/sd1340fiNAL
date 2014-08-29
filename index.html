@@ -1,0 +1,42 @@
+<html>
+	<head>
+	
+		<title>Ad Libs</title>
+		
+		<script type="text/javascript">
+	function printStuff() {
+		var message = document.inputform.myTextbox.value;
+		alert(message);
+	}
+	
+	function promptStuff() {
+		myName = prompt("What is your name?", "");
+		alert("Hello " + myName + ". Hope you have a nice day");
+	}
+	</script>
+	
+	</head>
+
+
+	<body>	
+
+
+	<form name="inputform">
+	<input id="myTextbox" type="text" placeholder="Type Something Here..." /><br>
+	</br>
+	<input id="myTextbox" type="text" placeholder="Type Something Here..." /><br>
+	</br>
+	<input id="myTextbox" type="text" placeholder="Type Something Here..." /><br>
+	</br>
+	<input id="myTextbox" type="text" placeholder="Type Something Here..." /><br>
+	</br>
+	<input id="myTextbox" type="text" placeholder="Type Something Here..." /><br>
+	<button onClick="javascript:promptStuff();">Click Here</button>
+	</br>
+	</form>	
+
+		
+
+
+	</body>
+</html>
